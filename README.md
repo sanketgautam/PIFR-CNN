@@ -1,20 +1,20 @@
-# Pose Invariant Face Recognition using Covolutional Nueral Network
+# Pose Invariant Face Recognition using Covolutional Neural Network
 
 This repository contains the implementation of Convolution Neural Network For Pose Invariant Face Recognition in Python.
 
 ### Datasets Used
 
-**Dataset:** AT&T Faces ( 'The ORL Database of Faces' )
+**Decription:** AT&T Faces ( 'The ORL Database of Faces' )
 
-**Link:** http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
+**URL:** http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
 
 ### Getting Started
 To run this projects execute `python file cnn.py`
 
-This network uses two different layers for training & testing as follows,
+This network uses following phases for training & testing,
 
-* Phase I - CNN is used for feature extraction in the
-* Phase II -  After training the neural network, we replace the last layer (i.e. Softmax Classifier) with our custom classifier, Extreme Learning Machine.
+* Phase I - Initially, CNN is used for feature extraction
+* Phase II -  After that, last layer (i.e. Softmax Classifier) is replaced with our custom classifier, Extreme Learning Machine (ELM).
 
 ### References
 
